@@ -169,7 +169,8 @@
         <artifactId>servlet-api</artifactId>
         <version>2.5</version>
       </dependency>
-           
+
+             
 <!-- https://mvnrepository.com/artifact/org.web3j/core -->
     <dependency>
        <groupId>org.web3j</groupId>
@@ -204,6 +205,23 @@
         <scope>test</scope>
       </dependency>
 
+      <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+      <dependency>
+         <groupId>io.cucumber</groupId>
+         <artifactId>cucumber-java</artifactId>
+         <version>7.13.0</version>
+      </dependency>
+
+      <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+      <dependency>
+         <groupId>info.cukes</groupId>
+         <artifactId>cucumber-junit</artifactId>
+         <version>1.2.6</version>
+         <type>pom</type>
+         <scope>test</scope>
+      </dependency>
+
+             
       <dependency>
         <groupId>org.mockito</groupId>
         <artifactId>mockito-core</artifactId>

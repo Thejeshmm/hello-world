@@ -170,12 +170,13 @@
         <version>2.5</version>
       </dependency>
            
-      <dependency>
-        <groupId>org.web3j</groupId>
-        <artifactId>web3j-model</artifactId>
-        <version><!-- Specify the version you need --></version>
-      </dependency>
-             
+<!-- https://mvnrepository.com/artifact/org.web3j/core -->
+    <dependency>
+       <groupId>org.web3j</groupId>
+       <artifactId>core</artifactId>
+       <version>5.0.0</version>
+    </dependency>
+      
       <dependency>
         <groupId>javax.servlet.jsp</groupId>
         <artifactId>jsp-api</artifactId>
